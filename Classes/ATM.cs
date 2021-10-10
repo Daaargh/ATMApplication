@@ -17,27 +17,30 @@ namespace ATMApplication.Classes
             this.account = account;
         }
 
-        public void WithdrawMoney(int amount, string pin)
+        public string WithdrawMoney(int amount, string pin)
         {
             if (initialBalance == 0)
             {
-                Console.WriteLine("ATM_ERR");
+                return "ATM_ERR";
             }
             else if ((initialBalance - amount) < 0)
             {
-                Console.WriteLine("FUNDS_ERR");
+                return "FUNDS_ERR";
             }
             else
             {
-                Console.WriteLine(account.WithDrawFunds(amount, pin));
+                return account.WithDrawFunds(amount, pin);
             }
-
-            return;
         }
 
-        public void CheckAccountBalance(string pin)
+        public string CheckAccountBalance(string pin)
         {
-            Console.WriteLine(account.GetBalance(pin));
+            return account.GetBalance(pin);
+        }
+
+        public string GetBalance()
+        {
+            return initialBalance.ToString();
         }
     }
 }
