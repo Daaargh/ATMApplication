@@ -31,7 +31,7 @@ namespace ATMApplication.Classes
 
         public string WithDrawFunds(int amount)
         {
-            if (balance < balanceLimit)
+            if (amount > balance + overdraftLimit)
             {
                 Console.WriteLine("FUNDS_ERR");
                 return "FUNDS_ERR";
