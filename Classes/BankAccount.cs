@@ -29,16 +29,18 @@ namespace ATMApplication.Classes
             return this.balance;
         }
 
-        public void WithDrawFunds(int amount)
+        public string WithDrawFunds(int amount)
         {
             if (balance < balanceLimit)
             {
                 Console.WriteLine("FUNDS_ERR");
+                return "FUNDS_ERR";
             }
             else
             {
                 balance -= amount;
                 Console.WriteLine(balance);
+                return balance.ToString();
             }
         }
 
