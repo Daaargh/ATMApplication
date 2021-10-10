@@ -12,6 +12,7 @@ namespace ATMApplication
             TestThree("79365185", "7832", 400, 100);
             TestFour("96257643", "5132", 10000, 1000);
             TestFive("79376392", "2894", 3000, 1000);
+            Console.WriteLine("TESTING COMPLETE");
         }
 
         public static void TestOne(string accountNum, string piNum, int bal, int over)
