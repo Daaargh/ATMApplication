@@ -28,18 +28,16 @@ namespace ATMApplication.Classes
             Console.WriteLine(balance);
         }
 
-        public string WithDrawFunds(int amount)
+        public void WithDrawFunds(int amount)
         {
             if (amount > balance + overdraftLimit)
             {
                 Console.WriteLine("FUNDS_ERR");
-                return "FUNDS_ERR";
             }
             else
             {
                 balance -= amount;
                 Console.WriteLine(balance);
-                return balance.ToString();
             }
         }
 
