@@ -5,7 +5,6 @@ C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ATMApplication.runtim
 C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ATMApplication.dll
 C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ref\ATMApplication.dll
 C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ATMApplication.pdb
-C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.csproj.AssemblyReference.cache
 C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.AssemblyInfoInputs.cache
 C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.AssemblyInfo.cs
