@@ -22,7 +22,6 @@ namespace ATMApplication.Classes
             if ((initialBalance - amount) < 0)
             {
                 Console.WriteLine("FUNDS_ERR");
-                return;
             }
             else if (initialBalance == 0)
             {
@@ -32,6 +31,8 @@ namespace ATMApplication.Classes
             {
                 Console.WriteLine(account.WithDrawFunds(amount, pin));
             }
+
+            return;
         }
 
         public void CheckAccountBalance(string pin)
