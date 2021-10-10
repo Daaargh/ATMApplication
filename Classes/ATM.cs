@@ -17,7 +17,7 @@ namespace ATMApplication.Classes
             this.account = account;
         }
 
-        public void WithdrawMoney(int amount)
+        public void WithdrawMoney(int amount, string pin)
         {
             if ((initialBalance - amount) < 0)
             {
@@ -30,13 +30,13 @@ namespace ATMApplication.Classes
             }
             else
             {
-                Console.WriteLine(account.WithDrawFunds(amount));
+                Console.WriteLine(account.WithDrawFunds(amount, pin));
             }
         }
 
-        public void CheckAccountBalance()
+        public void CheckAccountBalance(string pin)
         {
-            Console.WriteLine(account.GetBalance());
+            Console.WriteLine(account.GetBalance(pin));
         }
     }
 }

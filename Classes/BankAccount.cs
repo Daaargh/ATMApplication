@@ -23,22 +23,37 @@ namespace ATMApplication.Classes
             this.balanceLimit = overdraftLimit * (-1);
         }
 
-        public int GetBalance()
+        public string GetBalance(string pin)
         {
-            return balance;
+            if (CheckPIN(pin))
+            {
+                return this.balance.ToString();
+            } 
+            else
+            {
+                return "ACCOUNT_ERR";
+            }
         }
 
-        public string WithDrawFunds(int amount)
+        public string WithDrawFunds(int amount, string pin)
         {
-            if (amount > balance + overdraftLimit)
+            if (CheckPIN(pin))
             {
-                return "FUNDS_ERR";
+                if (amount > balance + overdraftLimit)
+                {
+                    return "FUNDS_ERR";
+                }
+                else
+                {
+                    balance -= amount;
+                    return balance.ToString();
+                }
             }
             else
             {
-                balance -= amount;
-                return balance.ToString();
+                return "ACCOUNT_ERR";
             }
+
         }
 
         public bool CheckPIN(string pin)
