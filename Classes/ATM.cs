@@ -19,13 +19,13 @@ namespace ATMApplication.Classes
 
         public void WithdrawMoney(int amount, string pin)
         {
-            if ((initialBalance - amount) < 0)
-            {
-                Console.WriteLine("FUNDS_ERR");
-            }
-            else if (initialBalance == 0)
+            if (initialBalance == 0)
             {
                 Console.WriteLine("ATM_ERR");
+            }
+            else if ((initialBalance - amount) < 0)
+            {
+                Console.WriteLine("FUNDS_ERR");
             }
             else
             {
