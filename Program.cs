@@ -8,7 +8,5 @@ namespace ATMApplication
         {
             Console.WriteLine("Hello World!");
         }
-
-        
     }
 }

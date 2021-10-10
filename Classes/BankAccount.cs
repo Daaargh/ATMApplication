@@ -23,21 +23,21 @@ namespace ATMApplication.Classes
             this.balanceLimit = overdraftLimit * (-1);
         }
 
-        public void GetBalance()
+        public int GetBalance()
         {
-            Console.WriteLine(balance);
+            return balance;
         }
 
-        public void WithDrawFunds(int amount)
+        public string WithDrawFunds(int amount)
         {
             if (amount > balance + overdraftLimit)
             {
-                Console.WriteLine("FUNDS_ERR");
+                return "FUNDS_ERR";
             }
             else
             {
                 balance -= amount;
-                Console.WriteLine(balance);
+                return balance.ToString();
             }
         }
 

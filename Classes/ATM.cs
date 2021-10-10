@@ -8,11 +8,6 @@ namespace ATMApplication.Classes
 {
     public class ATM
     {
-        int balance;
 
-        public ATM(int atmBalance)
-        {
-            this.balance = atmBalance;
-        }
     }
 }
