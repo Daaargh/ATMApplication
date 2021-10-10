@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ATMApplication.exe
+C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ATMApplication.deps.json
+C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ATMApplication.runtimeconfig.json
+C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ATMApplication.runtimeconfig.dev.json
+C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ATMApplication.dll
+C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ref\ATMApplication.dll
+C:\Users\User\source\repos\ATMApplication\bin\Debug\net5.0\ATMApplication.pdb
+C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.AssemblyInfo.cs
+C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.dll
+C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ref\ATMApplication.dll
+C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.pdb
+C:\Users\User\source\repos\ATMApplication\obj\Debug\net5.0\ATMApplication.genruntimeconfig.cache
